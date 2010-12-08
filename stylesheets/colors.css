@@ -1,0 +1,28 @@
+/* color.css */
+body { background-color : #E3E6C2;}
+
+div#content_main {border-left: 1px solid #CCCCCC;}
+
+/*Anker*/
+#content_main a{color: #ff9900;}
+#nav_main a, #sidenavi a{color: #333333;}
+#nav_main a:hover, a#current, ul#sidenavi a:hover, #sidenavi a#current{color: #ff9900;}
+#footer a{color:#666}
+
+h1 {
+	position : absolute;
+	top : -48px;
+	left : 0px;
+	width : 840px;
+	height : 45px;
+	background : transparent url('../images/assets/schriftzug.png') no-repeat;
+	text-indent : -9999px;
+}
+
+h2{color:#ff9900;}
+h3{
+	color:#333333;
+}
+
+
+ 

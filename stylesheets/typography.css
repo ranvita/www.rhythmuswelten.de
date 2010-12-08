@@ -1,0 +1,71 @@
+/* typography.css */
+h2,h3,h4,h5 { font : 100% "Trebuchet MS", "Lucida Grande","Lucida Sans Unicode", Arial, sans-serif;  }
+
+ol,ul { list-style : none; }
+
+address, caption, cite, code, dfn, em, th, var
+{ font-style : normal; font-weight : normal; }
+
+table { border-collapse : collapse; border-spacing : 0; }
+fieldset,img { border : 0; }
+caption,th { text-align : left; }
+q:before, q:after { content :''; }
+
+body {color : #333;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 72%;line-height: 1.5;}
+
+strong{font-size : 99%;}
+
+h2, h3, h4, p, ul, blockquote { margin : 0 20px .75em; }
+
+h2 {margin: 15px 0 15px 20px ;font-weight : bold;font-size: 140%;}
+h3 {font-weight : bold;font-size: 130%;margin: 20px 0 8px 20px;line-height: 18px;}
+h4 {font-weight : bold;font-size: 110%;margin: 20px 0 3px 20px;}
+
+em{font-style:italic;}
+p{font-size :110%;line-height:20px;}
+
+#content_main ul{padding:10px 0 25px 25px;font-size :110%;}
+#content_main ul strong{font-size :99%;}
+#content_main li{list-style-image: url('../images/assets/orange-dot.png');list-style-position: outside;line-height: 18px;padding-bottom:6px;}
+
+/*Anker*/
+#sidenavi a:link, a:visited, a:hover, a:focus { text-decoration : none; }
+#content_main a{font-weight:bold; text-decoration: none;}
+#content_main a:hover{border-bottom: 1px dotted #FF9900;}
+
+/*topnavi*/
+#nav_main{padding-left:40px;}
+ul#navlist{list-style-type: none;}
+#navlist li{float: left;}
+
+#navlist a{line-height: 14px;font-size: 11px;font-weight:bold;display: block;padding: 5px 7px 0;line-height: 20px;text-decoration: none;background-image: url('../images/assets/navi-linie.gif');background-repeat: no-repeat;background-position: left center;letter-spacing: 1px;}
+#navlist .first a {background-image: none;}
+
+/*sidenavi*/
+#sidenavi{margin:5px 0;border-top: 1px solid #ccc;}
+#sidenavi li{border-bottom: 1px solid #ccc;padding: 9px 0px 9px;text-align: right;}
+#sidenavi li a{font-size:12px;font-weight: normal;}
+
+/*footer*/
+
+div#site_info p{padding:10px;margin:0px}
+div#footer p{padding-top:20px}
+
+/*floats*/
+
+.picture-float-right{float: right;margin: 5px 0px 15px 20px;}
+.picture-float-left{float: left;margin: 5px 20px 15px 0px;}
+.picture-float-right-ranvita{float: right;}
+.picture-float-right-team{float: right;margin-left:30px;}
+
+/*galerie*/
+
+#tbl-galerie{margin:10px 0 0 25px}
+.td-galerie{width:200px;}
+.td-galerie h4{margin:0;padding:10px 0 20px 0;font-size:11px;}
+
+/*termine*/
+#tbl-termine{margin:0px 20px;width:500px;font-size:110%}
+#tbl-termine th{font-weight:bold;}
+#tbl-termine .td-trenner{vertical-align: top;border-bottom:1px solid #ccc;height:1px;padding:5px 0}
+.tbl-termine-datum{width:100px;vertical-align: top;}
